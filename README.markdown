@@ -11,6 +11,17 @@ SELECTABLE TOOLBAR
 
 ![Selectable Toolbar](http://github.com/fnando/cocoa-beans/raw/master/SelectableToolbar.png "Selectable Toolbar")
 
+GROWL NOTIFICATION
+------------------
+
+### Getting started
+
+1. Install [Growl SDK](http://growl.info/downloads_developers.php): copy `Frameworks/Growl.framework` and `Frameworks/Growl-WithInstaller.framework` to `/Developer/Library/Frameworks`.
+2. On XCode, right-click `Frameworks > Linked Frameworks` from left panel; select `Add > Existing Frameworks...` and choose the Growl framework at `/Developer/Library/Framework/Growl.framework`
+3. On XCode, right-click `Targets > YOUR-PROJECT-NAME` and select `Add > New Build Phase > New Copy Files Build Phase`; select `Frameworks` from the dialog and close the window. Then drag the Growl framework from `Frameworks > Linked Frameworks > Growl.framework` to `Targets > YOUR-PROJECT-NAME > Copy Files`.
+
+![Growl Notification](http://github.com/fnando/cocoa-beans/raw/master/GrowlNotification.png "Growl Notification")
+
 MAINTAINER
 ----------
 
