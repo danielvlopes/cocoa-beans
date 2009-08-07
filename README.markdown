@@ -9,7 +9,7 @@ to improve some implementation, please fork it and send a better one!
 SELECTABLE TOOLBAR
 ------------------
 
-![Selectable Toolbar](http://github.com/fnando/raw/master/SelectableToolbar.png "Selectable Toolbar")
+![Selectable Toolbar](http://github.com/fnando/cocoa-beans/raw/master/SelectableToolbar.png "Selectable Toolbar")
 
 MAINTAINER
 ----------
