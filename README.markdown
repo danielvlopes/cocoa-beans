@@ -22,6 +22,11 @@ GROWL NOTIFICATION
 
 ![Growl Notification](http://github.com/fnando/cocoa-beans/raw/master/GrowlNotification.png "Growl Notification")
 
+STATUS BAR
+----------
+
+![Status Bar](http://github.com/fnando/cocoa-beans/raw/master/StatusBar.png "Status Bar")
+
 MAINTAINER
 ----------
 
