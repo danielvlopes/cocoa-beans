@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DockBadge' target in the 'DockBadge' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -32,6 +32,11 @@ VIEW SWAPPING
 
 ![View Swapping](http://github.com/fnando/cocoa-beans/raw/master/ViewSwapping.png "View Swapping")
 
+DOCK BADGE
+----------
+
+![Dock Badge](http://github.com/fnando/cocoa-beans/raw/master/DockBadge.png "Dock Badge")
+
 MAINTAINER
 ----------
 
