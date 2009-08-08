@@ -9,7 +9,7 @@ to improve some implementation, please fork it and send a better one!
 SELECTABLE TOOLBAR
 ------------------
 
-![Selectable Toolbar](http://github.com/fnando/cocoa-beans/raw/master/SelectableToolbar.png "Selectable Toolbar")
+![Selectable Toolbar](http://f.simplesideias.com.br/cocoa-beans/SelectableToolbar.png "Selectable Toolbar")
 
 GROWL NOTIFICATION
 ------------------
@@ -20,22 +20,22 @@ GROWL NOTIFICATION
 2. On XCode, right-click `Frameworks > Linked Frameworks` from left panel; select `Add > Existing Frameworks...` and choose the Growl framework at `/Developer/Library/Framework/Growl.framework`
 3. On XCode, right-click `Targets > YOUR-PROJECT-NAME` and select `Add > New Build Phase > New Copy Files Build Phase`; select `Frameworks` from the dialog and close the window. Then drag the Growl framework from `Frameworks > Linked Frameworks > Growl.framework` to `Targets > YOUR-PROJECT-NAME > Copy Files`.
 
-![Growl Notification](http://github.com/fnando/cocoa-beans/raw/master/GrowlNotification.png "Growl Notification")
+![Growl Notification](http://f.simplesideias.com.br/cocoa-beans/GrowlNotification.png "Growl Notification")
 
 STATUS BAR
 ----------
 
-![Status Bar](http://github.com/fnando/cocoa-beans/raw/master/StatusBar.png "Status Bar")
+![Status Bar](http://f.simplesideias.com.br/cocoa-beans/StatusBar.png "Status Bar")
 
 VIEW SWAPPING
 -------------
 
-![View Swapping](http://github.com/fnando/cocoa-beans/raw/master/ViewSwapping.png "View Swapping")
+![View Swapping](http://f.simplesideias.com.br/cocoa-beans/ViewSwapping.png "View Swapping")
 
 DOCK BADGE
 ----------
 
-![Dock Badge](http://github.com/fnando/cocoa-beans/raw/master/DockBadge.png "Dock Badge")
+![Dock Badge](http://f.simplesideias.com.br/cocoa-beans/DockBadge.png "Dock Badge")
 
 MAINTAINER
 ----------
