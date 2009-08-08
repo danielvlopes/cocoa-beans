@@ -27,6 +27,11 @@ STATUS BAR
 
 ![Status Bar](http://github.com/fnando/cocoa-beans/raw/master/StatusBar.png "Status Bar")
 
+VIEW SWAPPING
+-------------
+
+![View Swapping](http://github.com/fnando/cocoa-beans/raw/master/ViewSwapping.png "View Swapping")
+
 MAINTAINER
 ----------
 
