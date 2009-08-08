@@ -37,6 +37,11 @@ DOCK BADGE
 
 ![Dock Badge](http://f.simplesideias.com.br/cocoa-beans/DockBadge.png "Dock Badge")
 
+WEBKIT VIEW WITH JAVASCRIPT
+---------------------------
+
+![Webkit View with Javascript](http://f.simplesideias.com.br/cocoa-beans/WebkitViewWithJavascript.png "Webkit View with Javascript")
+
 MAINTAINER
 ----------
 
