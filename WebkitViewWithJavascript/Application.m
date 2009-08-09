@@ -22,6 +22,7 @@
 	[view setDrawsBackground:NO];
     [view setUIDelegate:self];
     [view setFrameLoadDelegate:self];
+	[view setEditingDelegate:self];
 	
 	// define window.KEYNAME object; in this case, this object will
 	// be accessible throught window.app
@@ -58,7 +59,16 @@
     defaultMenuItems:(NSArray *)defaultMenuItems
 {
 	// disable right-click context menu
-    return nil;
+    return NO;
+}
+
+- (BOOL)webView:(WebView *)webView shouldChangeSelectedDOMRange:(DOMRange *)currentRange 
+	toDOMRange:(DOMRange *)proposedRange 
+	affinity:(NSSelectionAffinity)selectionAffinity 
+	stillSelecting:(BOOL)flag
+{
+	// disable text selection
+    return NO;
 }
 
 - (void)addContent:(id)content
