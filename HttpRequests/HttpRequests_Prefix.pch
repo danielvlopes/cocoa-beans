@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HttpRequests' target in the 'HttpRequests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

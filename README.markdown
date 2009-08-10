@@ -9,7 +9,7 @@ to improve some implementation, please fork it and send a better one!
 SELECTABLE TOOLBAR
 ------------------
 
-![Selectable Toolbar](http://f.simplesideias.com.br/cocoa-beans/SelectableToolbar.png "Selectable Toolbar")
+![Selectable Toolbar](http://f.simplesideias.com.br/cocoa-beans/SelectableToolbar.png)
 
 GROWL NOTIFICATION
 ------------------
@@ -20,27 +20,32 @@ GROWL NOTIFICATION
 2. On XCode, right-click `Frameworks > Linked Frameworks` from left panel; select `Add > Existing Frameworks...` and choose the Growl framework at `/Developer/Library/Framework/Growl.framework`
 3. On XCode, right-click `Targets > YOUR-PROJECT-NAME` and select `Add > New Build Phase > New Copy Files Build Phase`; select `Frameworks` from the dialog and close the window. Then drag the Growl framework from `Frameworks > Linked Frameworks > Growl.framework` to `Targets > YOUR-PROJECT-NAME > Copy Files`.
 
-![Growl Notification](http://f.simplesideias.com.br/cocoa-beans/GrowlNotification.png "Growl Notification")
+![Growl Notification](http://f.simplesideias.com.br/cocoa-beans/GrowlNotification.png)
 
 STATUS BAR
 ----------
 
-![Status Bar](http://f.simplesideias.com.br/cocoa-beans/StatusBar.png "Status Bar")
+![Status Bar](http://f.simplesideias.com.br/cocoa-beans/StatusBar.png)
 
 VIEW SWAPPING
 -------------
 
-![View Swapping](http://f.simplesideias.com.br/cocoa-beans/ViewSwapping.png "View Swapping")
+![View Swapping](http://f.simplesideias.com.br/cocoa-beans/ViewSwapping.png)
 
 DOCK BADGE
 ----------
 
-![Dock Badge](http://f.simplesideias.com.br/cocoa-beans/DockBadge.png "Dock Badge")
+![Dock Badge](http://f.simplesideias.com.br/cocoa-beans/DockBadge.png)
 
 WEBKIT VIEW WITH JAVASCRIPT
 ---------------------------
 
-![Webkit View with Javascript](http://f.simplesideias.com.br/cocoa-beans/WebkitViewWithJavascript.png "Webkit View with Javascript")
+![Webkit View with Javascript](http://f.simplesideias.com.br/cocoa-beans/WebkitViewWithJavascript.png)
+
+HTTP REQUESTS (SYNCHRONOUS & ASYNCHRONOUS)
+------------------------------------------
+
+![HTTP Requests](http://f.simplesideias.com.br/cocoa-beans/HttpRequests.png)
 
 MAINTAINER
 ----------
