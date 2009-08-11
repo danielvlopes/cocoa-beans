@@ -4,7 +4,16 @@
 @synthesize textField;
 @synthesize loader;
 
-- (IBAction)doAsyncRequest:(id)sender
+- (void)awakeFromNib
+{
+	[options addItemWithTitle:@""];
+	[options addItemWithTitle:@"Synchronous"];
+	[options addItemWithTitle:@"Asynchronous"];
+	[options addItemWithTitle:@"Synchronous with NSString"];
+	[options addItemWithTitle:@"Threaded with NSString"];
+}
+
+- (void)doAsyncRequest
 {
 	NSURL *url = [NSURL URLWithString:@"http://f.simplesideias.com.br/cocoa-beans/sleep.php"];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -16,7 +25,7 @@
 	[connection release];
 }
 
-- (IBAction)doSyncRequest:(id)sender
+- (void)doSyncRequest
 {
 	NSURL *url = [NSURL URLWithString:@"http://f.simplesideias.com.br/cocoa-beans/sleep.php"];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -35,7 +44,7 @@
 	NSLog(@"response: %@", [response allHeaderFields]);
 }
 
-- (IBAction)doNSStringRequest:(id)sender
+- (void)doNSStringRequest
 {
 	NSURL *url = [NSURL URLWithString:@"http://f.simplesideias.com.br/cocoa-beans/sleep.php"];
 	
@@ -43,5 +52,37 @@
 	NSString *content = [NSString stringWithContentsOfURL:url];
 	[loader stopAnimation:nil];
 	[textField setStringValue:content];
+}
+
+- (void)doThreadedRequest
+{
+	[NSThread detachNewThreadSelector:@selector(runThread:) toTarget:self withObject:nil];
+}
+
+- (void)runThread:(id)anObject
+{
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	[self doNSStringRequest];
+	
+	[pool release];
+}
+
+- (IBAction)changedRequestMode:(id)sender
+{
+	switch ([sender indexOfSelectedItem]) {
+		case 1:
+			[self doSyncRequest];
+			break;
+		case 2:
+			[self doAsyncRequest];
+			break;
+		case 3:
+			[self doNSStringRequest];
+			break;
+		case 4:
+			[self doThreadedRequest];
+			break;
+	}
 }
 @end

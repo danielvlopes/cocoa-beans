@@ -4,10 +4,14 @@
 @interface Application : NSObject {
 	IBOutlet NSTextField *textField;
 	IBOutlet NSProgressIndicator *loader;
+	IBOutlet NSPopUpButton *options;
 }
-- (IBAction)doAsyncRequest:(id)sender;
-- (IBAction)doSyncRequest:(id)sender;
-- (IBAction)doNSStringRequest:(id)sender;
+- (void)doAsyncRequest;
+- (void)doSyncRequest;
+- (void)doNSStringRequest;
+- (void)doThreadedRequest;
+
+- (IBAction)changedRequestMode:(id)sender;
 
 @property (nonatomic, readonly) NSTextField *textField;
 @property (nonatomic, readonly) NSProgressIndicator *loader;
