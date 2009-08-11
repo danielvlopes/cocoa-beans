@@ -34,4 +34,14 @@
 	NSLog(@"error: %@", error);
 	NSLog(@"response: %@", [response allHeaderFields]);
 }
+
+- (IBAction)doNSStringRequest:(id)sender
+{
+	NSURL *url = [NSURL URLWithString:@"http://f.simplesideias.com.br/cocoa-beans/sleep.php"];
+	
+	[loader startAnimation:nil];
+	NSString *content = [NSString stringWithContentsOfURL:url];
+	[loader stopAnimation:nil];
+	[textField setStringValue:content];
+}
 @end
