@@ -47,6 +47,11 @@ HTTP REQUESTS (SYNCHRONOUS & ASYNCHRONOUS)
 
 ![HTTP Requests](http://f.simplesideias.com.br/cocoa-beans/HttpRequests.png)
 
+WINDOW BUTTONS
+--------------
+
+![Window Buttons](http://f.simplesideias.com.br/cocoa-beans/WindowButtons.png)
+
 MAINTAINER
 ----------
 
